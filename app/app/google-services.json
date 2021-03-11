@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1030261517212",
+    "firebase_url": "https://mynnequin-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mynnequin",
+    "storage_bucket": "mynnequin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030261517212:android:a9e9565e49946cbb2fb659",
+        "android_client_info": {
+          "package_name": "ntua.hci.mynnequin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030261517212-kob3p2a7klg7102o7b3g7gsvi5u7sucp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwCNPDZe8s3b_NOLi6-zA1IOqyvpITWK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030261517212-kob3p2a7klg7102o7b3g7gsvi5u7sucp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030261517212:android:5ee1142c95ee0f4d2fb659",
+        "android_client_info": {
+          "package_name": "ntua.hci.mynnequin2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030261517212-kob3p2a7klg7102o7b3g7gsvi5u7sucp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwCNPDZe8s3b_NOLi6-zA1IOqyvpITWK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030261517212-kob3p2a7klg7102o7b3g7gsvi5u7sucp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

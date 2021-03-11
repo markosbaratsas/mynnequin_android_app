@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".SearchActivity"
+    android:background="#f3f3f3"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="#f3f3f3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="left">
+
+            <ImageView
+                android:id="@+id/previous"
+                android:paddingTop="15sp"
+                android:paddingLeft="10sp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/back"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:textColor="@color/item_text_color"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="24dp"
+            android:text="AR model will be implemented in this activity"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:src="@drawable/model3d"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

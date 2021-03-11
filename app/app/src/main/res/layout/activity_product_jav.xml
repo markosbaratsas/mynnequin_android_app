@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".ProductActivityJav"
+    android:background="#f3f3f3"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="#f3f3f3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="left">
+
+            <ImageView
+                android:id="@+id/previous"
+                android:paddingTop="15sp"
+                android:paddingLeft="10sp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/back"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/add_to_favorites"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:id="@+id/add_to_favorites_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="10sp"
+                    android:text="Add to Favorites"/>
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/not_selected_favorites2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/add_to_cart"
+                android:layout_width="245dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:layout_marginRight="10sp"
+                    android:text="Add to cart"/>
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/cart"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/buttontomodel"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:shadowColor="@color/black"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:background="@drawable/button01"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="22dp"
+                android:text="Preview on 3D model"/>
+
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:src="@drawable/product01"/>
+
+            <TextView
+                android:id="@+id/product_name_favorites"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="productFavorite"
+                android:textSize="1dp"/>
+
+            <TextView
+                android:id="@+id/product_name_cart_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="productQuantity"
+                android:textSize="1dp"/>
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Product, xx$"
+                android:textSize="25dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Change recommended size"
+                    android:textSize="22dp"/>
+
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:backgroundTint="@color/black">
+
+                    <RadioButton
+                        android:id="@+id/radioS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@android:drawable/btn_radio"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:text = "S"
+                        android:buttonTint="@color/black"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/radioM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@android:drawable/btn_radio"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:text = "M"
+                        android:checked="true"
+                        android:buttonTint="@color/black"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/radioL"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@android:drawable/btn_radio"
+                        android:gravity="center"
+                        android:button="@android:color/transparent"
+                        android:text = "L"
+                        android:buttonTint="@color/black"
+                        />
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
