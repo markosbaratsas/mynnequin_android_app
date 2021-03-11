@@ -9,11 +9,14 @@ Some images of this app running on an Android phone:
 <p float="left">
   <img src="img/01_mynnequin.jpg" alt="01_mynnequin" width="300" />
   <img src="img/02_mynnequin.jpg" alt="02_mynnequin" width="300" />
-  <img src="img/03_mynnequin.jpg" alt="03_mynnequin" width="300"/>
 </p>
 
 <p float="left">
+  <img src="img/03_mynnequin.jpg" alt="03_mynnequin" width="300"/>
   <img src="img/04_mynnequin.jpg" alt="04_mynnequin" width="300" />
+</p>
+
+<p float="left">
   <img src="img/05_mynnequin.jpg" alt="05_mynnequin" width="300" />
   <img src="img/06_mynnequin.jpg" alt="06_mynnequin" width="300"/>
 </p>
